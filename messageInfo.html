@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>《统计学》课程</title>
+    
+    <!-- css -->
+    <link href="static/css/font.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="static/css/swiper.css" rel="stylesheet">
+	<link href="static/css/styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- 图标 -->
+            <!--<a class="navbar-brand logo-image" href=""><img src="./images/校标.jpg" alt="alternative"></a>-->
+            <!--<a class="navbar-brand logo-text" href="index.html">统计学</a>-->
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">课程主页</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teacherInfo.html">教学团队</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resourceInfo.html">教学资源</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn-solid-sm" href="messageInfo.html"><i class="fas fa-paper-plane"></i> 我要留言</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航栏结束 -->
+
+    <!-- 课程简介 -->
+    <header id="header" class="header">
+        <div class="container header-img">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <div class="section-title">《统计学》课程简介</div>
+                        <h1 class="h1-large">什么是统计学？</h1>
+                        <p class="p-large">统计学是收集、处理、分析、解释数据并从数据中得出结论的科学。其中，数据收集是指取得统计数据；数据处理是指将数据用图表等形式展示出来；数据分析则是选择适当的统计方法研究数据，并从数据中提取有用信息进而得出结论。</p>
+                        <!--
+                        <a class="btn-solid-lg" href="#services">查看更多</a>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 课程简介结束 -->
+
+    <!-- 留言板 -->
+    <div class="messageDetail">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 large-info">
+                    <div class="info">
+                        <div class="messageInfoMini">
+                            <h3>关于课程学习材料的疑问</h3>
+                            <h4>
+                                <span>2020111122</span>
+                                <span class="time">2023/11/01 16:01:42</span>
+                                <label class="questionType">资源求助</label>
+                            </h4>
+                            <div class="question">请问除了课程指定书籍之外，还有什么学习材料值得推荐嘛？谢谢！</div>
+                        </div>
+                        <div class="messageInfoMini">
+                            <h3>回复：关于课程学习材料的疑问</h3>
+                            <h4>
+                                <span>AB</span>
+                                <span class="time">2023/11/02 19:10:24</span>
+                                <label class="questionType">资源求助</label>
+                            </h4>
+                            <div class="question">xxx出版社的《统计......（第三版）》的习题部分和《数据分析......》可以作为课后的补充资料。</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 large-info">
+                    <div class="info">
+                        <div class="part-title">
+                            我要留言
+                        </div>
+                        <div  class="contact">
+                            <form>
+                                <div class="contactInfoMini">
+                                    <input type="text" required="">
+                                    <div class="underline"></div>
+                                    <label>姓名</label>
+                                </div>
+                                <div class="contactInfoMini">
+                                    <input type="text" required="">
+                                    <div class="underline"></div>
+                                    <label>内容主题</label>
+                                </div>
+                                <div class="contactInfoMini">
+                                    <select required="">
+                                        <option class="select-option" value="" disabled="" selected=""></option>
+                                        <option class="select-option" value="Company Website">疑难解答</option>
+                                        <option class="select-option" value="Landing Page">资源求助</option>
+                                        <option class="select-option" value="Online Shop">课程安排</option>
+                                        <option class="select-option" value="Online Shop">其他问题</option>
+                                    </select>
+                                    <div class="underline"></div>
+                                    <label>内容分类</label>
+                                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                                </div>
+                                <div class="contactInfoMini">
+                                    <textarea placeholder="欢迎留言交流~" required=""></textarea>
+                                </div>
+                                <button type="submit" class="form-control-submit-button">提交</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <div class="footer bg-dark">
+        <!--<img class="decoration" src="static/picture/footer1.png" alt="alternative">-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 logo">
+                    <a href="https://www.sufe.edu.cn/"><img src="static/picture/校徽.png" alt="#"></a>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <h5>友情链接</h5>
+                    <h6><a href="https://login.sufe.edu.cn/login/">- 上财门户&nbsp;&nbsp;</a></h6>
+                    <h6><a href="https://bb.shufe.edu.cn/portal">- 上财教学网</a></h6>
+                    <h6><a href="https://ssm.sufe.edu.cn/">- 学院主页&nbsp;&nbsp;</a></h6>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <h5>联系我们</h5>
+                    <h6><a href="messageInfo.html">- 留言交流&nbsp;&nbsp;</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 返回首页 -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="static/picture/up-arrow.png" alt="alternative">
+    </button>
+
+    <!--js-->
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/swiper.min.js"></script>
+    <script src="static/js/purecounter.min.js"></script>
+    <script src="static/js/isotope.pkgd.min.js"></script>
+    <script src="static/js/scripts.js"></script>
+</body>
+</html>
